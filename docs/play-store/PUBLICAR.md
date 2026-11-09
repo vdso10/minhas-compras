@@ -98,12 +98,7 @@ Aviso: o Minhas Compras não é um aplicativo oficial da Secretaria da Fazenda (
 **Gráficos:**
 - Ícone: `docs/play-store/icone-512.png`
 - Gráfico de destaque: `docs/play-store/grafico-destaque.png`
-- [ ] **Capturas de tela do celular (mínimo 2, recomendado 4 a 8):** tire prints no seu celular com o app instalado e com alguns dados de exemplo:
-  1. Lista com itens e preços (com o cartão "Mercado mais barato")
-  2. Aba Gastos com o gráfico
-  3. Tela de conferir nota fiscal
-  4. Comparação de preços de um produto
-  5. Abertura do app (cupom "Minhas Compras")
+- [x] **Capturas de tela do celular (6):** `docs/play-store/prints/01.png` a `06.png` (1080×1920). Para refazer a partir de novos prints, coloque-os em `docs/play-store/prints-originais/` e rode `node scripts/gerar-prints.mjs`.
 
 **Detalhes de contato:** e-mail `vaguinhobom@gmail.com`. Site (opcional): `https://vdso10.github.io/minhas-compras/`
 
