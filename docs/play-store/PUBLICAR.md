@@ -172,5 +172,4 @@ Para o `eas submit` enviar sozinho:
    # aumente "version" no app.json (ex.: 1.0.1)
    npx eas-cli@latest build -p android --profile production --auto-submit
    ```
-   A versão vai para o **teste interno** como rascunho. Promova no Play Console.
-   Quando o app já estiver publicado, troque `"releaseStatus": "draft"` por `"completed"` no `eas.json`.
+   A versão vai publicada para o **teste interno**. Teste no celular e, se estiver tudo certo, promova para **Produção** no Play Console (ou peça ao Claude para promover pela API).
