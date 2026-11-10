@@ -19,22 +19,22 @@ Status dos passos: **[x] pronto no projeto**, **[ ] você faz**.
 
 ## 2. Publicar a política de privacidade (GitHub Pages)
 
-1. [ ] Em https://github.com/new crie o repositório **`minhas-compras`** (público), na conta `vdso10`.
-2. [ ] No terminal, na pasta do projeto:
+1. [x] Em https://github.com/new crie o repositório **`minhas-compras`** (público), na conta `vdso10`.
+2. [x] No terminal, na pasta do projeto:
    ```bash
    git remote add origin https://github.com/vdso10/minhas-compras.git
    git push -u origin main
    ```
-3. [ ] No GitHub: **Settings > Pages > Build and deployment > Source: Deploy from a branch > Branch: `main` / pasta `/docs` > Save**.
-4. [ ] Em 1 ou 2 minutos, o link fica no ar:
+3. [x] No GitHub: **Settings > Pages > Build and deployment > Source: Deploy from a branch > Branch: `main` / pasta `/docs` > Save**.
+4. [x] Em 1 ou 2 minutos, o link fica no ar:
    **https://vdso10.github.io/minhas-compras/privacidade.html**
 
 > Se preferir não deixar o código público, crie um repositório separado só com a pasta `docs`.
 
 ## 3. Gerar o app (EAS Build)
 
-1. [ ] Crie uma conta grátis em https://expo.dev/signup (se ainda não tiver).
-2. [ ] No terminal: `npx eas-cli@latest login`
+1. [x] Crie uma conta grátis em https://expo.dev/signup (se ainda não tiver).
+2. [x] No terminal: `npx eas-cli@latest login`
 3. Depois disso, eu (ou você) rodo:
    ```bash
    npx eas-cli@latest init                                     # liga o projeto à conta Expo
